@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konica Minolta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <label>Kundennumer:</label>
+    <input type="number" id="kundennummer-input">
+    <button id="kundennummer-btn">Kundennummer hinzufügen</button>
+
+    <label>Kundenname:</label>
+    <input type="text" id="kundenname-input">
+    <button id="kundenname-btn">Kundename hinzufügen</button>
+
+    <label>Postleitzahl:</label>
+    <input type="number" id="Postleitzahl-input">
+    <button id="postleitzahl-btn">Postleitzahl hinzufügen</button>
+
+    <label>Ort:</label>
+    <input type="text" id="Ort-input">
+    <button id="ort-btn">Ort hinzufügen</button>
+
+    <label>Land:</label>
+    <input type="text" id="Land-input">
+    <button id="land-btn">Land hinzufügen</button>
+
+    <label>Strasse:</label>
+    <input type="text" id="Strasse-input">
+    <button id="strasse-btn">Strasse hinzufügen</button>
+
+    <div>
+      <input placeholder="Suche nach Kundennummer" id="suche-input">
+      <button id="suche-btn">Suche</button>
+    </div>
+
+    <table id="table">
+      <thead>
+          <th>Kundennummer</th>
+          <th>Kundenname</th>
+          <th>Postleitzahl</th>
+          <th>Ort</th>
+          <th>Land</th>
+          <th>Strasse</th>
+          <th>Löschen</th>
+          <th>Ändern</th>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script  src="index.js"></script>
+  </main>
+  
+</body>
+</html>
